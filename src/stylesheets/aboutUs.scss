@@ -1,0 +1,35 @@
+.who, .meet{
+    color: darkblue;
+    background-color: lightblue;
+}
+
+h3, p{
+    text-align: center;
+}
+
+.card-title{
+    font-size: 14px;
+}
+
+.card-text{
+    font-size: 10px;
+}
+// Define a list of images
+$images: "joshua-tsu-6LkwAXWgYO0-unsplash.jpg",
+         "luca-nicoletti-OpgJPy3zjDE-unsplash.jpg",
+         "michael-dam-mEZ3PoFGs_k-unsplash.jpg",
+         "petr-sevcovic-e12wQLAjQi0-unsplash.jpg";
+
+//width for each image
+$image-width: 95%; 
+
+// Iterate over the list of images
+@each $image in $images {
+  .col img {
+    width: $image-width;
+    height: auto; // Maintain aspect ratio
+    display: block; // Ensure proper display
+    margin: 0 auto; // Center the images horizontally
+    margin-bottom: 10px; // Add some bottom margin for spacing
+  }
+}

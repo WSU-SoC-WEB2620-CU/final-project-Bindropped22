@@ -1,3 +1,5 @@
+<!-- To gather usable art I use the "National Gallery of Art"-->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,11 +8,110 @@
   <title>Project Starter</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./stylesheets/main.scss">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-9hXrtR23Z7BDU+4i6sfD2VEtYavk6SybALY3pJR8e8dQ7OfF8tk2C6y/RbK9i6hJkP6MJlSYGTeJU3LcMtYcWg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-  <!--  Your HTML goes here-->
-  <h1>Welcome to WEB 2620!!!!!</h1>
+  <!-- Nav -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <div class="container">
+        <div class="navbar-collapse" id="navbarText">
+            <!-- Centered Search Bar -->
+            <div class="mx-auto">
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Navigation Items -->
+        <ul class="nav flex-column ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="aboutUs.html">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="form.html">For Artists</a>
+            </li>
+        </ul>
+        
+        <!-- User Icon -->
+        <div>
+            <a href="account.html" style="color: white;"><i class="fas fa-user-circle fa-5x"></i></a>
+        </div>
+    </div>
+</nav>
+
+
+<!-- End Nav -->
+
+<!-- Jumbotron Start -->
+<div class="jumbotron">
+  <h1 class="display-4">Welcome to the Gallery</h1>
+  <p>We hope you can find and purchase some of the "top of the line" art of this century at a fraction of the cost. 
+    We buy and sell "top-tier" artistry.
+  </p>
+  <div class="row justify-content-center"> <!-- Center the buttons -->
+    <div class="col-md-3">
+      <button class="btn btn-block">Come and See</button> <!-- Blue button -->
+    </div>
+  </div>
+</div>
+<!-- Jumbotron End -->
+
+<!-- Best Sellers  start -->
+<div class="bestSellers bg-primary">
+  <div class="text-center">
+    <h1>Best Sellers</h1>
+  </div>
+
+    <div class="row justify-content-center"> <!-- Center the cards -->
+      <div class="col-md-3"> 
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="images/bronze.jpg" alt="Terry Winters">
+          <div class="card-body">
+            <h5 class="card-title">Theophratus Garden 2</h5>
+            <p class="card-text">$84.99</p>
+            <a href="#" class="btn btn-primary">Purchase Now</a><!--When the time comes link to shop.html-->
+          </div>
+        </div>  
+      </div>
+      <div class="col-md-3"> 
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="images/cremeSunset.jpg" alt="Sylvia Mangold">
+          <div class="card-body">
+            <h5 class="card-title">Untitled Section B</h5>
+            <p class="card-text">$87.99</p>
+            <a href="#" class="btn btn-primary">Purchase Now</a><!--When the time comes link to shop.html-->
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3"> 
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="images/think.jpg" alt="Ed Ruscha">
+          <div class="card-body">
+            <h5 class="card-title">Doubts</h5>
+            <p class="card-text">$98.99</p>
+            <a href="#" class="btn btn-primary">Purchase Now</a><!--When the time comes link to shop.html-->
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<!-- Best Sellers END -->
+
+
+  <footer>
+    <p>&copy; 2024 The Gallery. All Rights Reserved.</p>
+  </footer>
+
 <script type="module" src="./javascripts/main.js"></script>
 </body>
 </html>

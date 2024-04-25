@@ -1,0 +1,21 @@
+
+
+.jumbotron{
+    background: repeating-linear-gradient(45deg, skyblue, white 50%, skyblue 50%);
+}
+.jumbotron h1{
+padding-left: 5px;
+color: navy;
+font-weight: 600;
+text-align: center;
+}
+.jumbotron p{
+padding-left: 5px;
+color: navy;
+text-align: center;
+}
+
+.btn{
+    background-color: navy !important;
+    color: whitesmoke !important;
+}

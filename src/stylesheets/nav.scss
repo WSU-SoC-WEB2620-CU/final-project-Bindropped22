@@ -1,0 +1,22 @@
+// Define variables
+$navbar-bg-color: blue; // Background color for the navbar
+$nav-item-margin: -10px; // Margin between navbar items
+$icon-size: 50px;
+$icon-color: white;
+.navbar{
+    background-color: $navbar-bg-color;
+}
+// Custom styles for navbar items
+.nav-item {
+  margin-bottom: $nav-item-margin;
+}
+
+.nav-link{
+    color: $icon-color;
+}
+.nav-item :hover{
+    color: lightblue;
+}
+.nav-item :active {
+    color: navy;
+}

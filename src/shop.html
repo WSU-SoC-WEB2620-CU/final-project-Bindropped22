@@ -1,0 +1,165 @@
+<!-- 
+   (1)To gather usable art I use the "National Gallery of Art"
+
+  Change the Art to where it is 9 separate images 
+
+  Search bar needs to work
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Project Starter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./stylesheets/main.scss">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-9hXrtR23Z7BDU+4i6sfD2VEtYavk6SybALY3pJR8e8dQ7OfF8tk2C6y/RbK9i6hJkP6MJlSYGTeJU3LcMtYcWg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- Nav -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <div class="collapse navbar-collapse" id="navbarText">
+      <h1>Shop</h1>
+      <div class="mx-auto">
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+    <ul class="nav flex-column">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Shop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutUs.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="form.html">For Artists</a>
+        </li>
+    </ul>
+    <div>
+      <a href="account.html" style=" color: white;"><i class="fas fa-user-circle fa-5x"></i></a>
+    </div>
+  </nav>
+
+<!-- End Nav -->
+
+
+
+<!-- Shop start -->
+<div class="shop">
+    <div class="row justify-content-center"> <!-- Center the cards -->
+      <div class="col-md-3"> 
+        <div class="card bg-primary" style="width: 18rem;">
+          <img class="card-img-top" src="images/bronze.jpg" alt="Terry Winters">
+          <div class="card-body">
+            <h5 class="card-title">Theophratus Garden 2</h5>
+            <p class="card-text">$84.99</p>
+            <a href="checkOut.html" class="btn btn-primary">Purchase Now</a><!--When the time comes link to shop.html-->
+          </div>
+        </div>  
+      </div>
+      <div class="col-md-3"> 
+        <div class="card bg-primary" style="width: 18rem;">
+          <img class="card-img-top" src="images/cremeSunset.jpg" alt="Sylvia Mangold">
+          <div class="card-body">
+            <h5 class="card-title">Untitled Section B</h5>
+            <p class="card-text">$87.99</p>
+            <a href="checkOut.html" class="btn btn-primary">Purchase Now</a><!--When the time comes link to shop.html-->
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3"> 
+        <div class="card bg-primary" style="width: 18rem;">
+          <img class="card-img-top" src="images/think.jpg" alt="Ed Ruscha">
+          <div class="card-body">
+            <h5 class="card-title">Doubts</h5>
+            <p class="card-text">$98.99</p>
+            <a href="checkOut.html" class="btn btn-primary">Purchase Now</a><!--When the time comes link to shop.html-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-3"> 
+        <div class="card bg-primary" style="width: 18rem;">
+          <img class="card-img-top" src="images/Dark.jpg" alt="Terry Winters">
+          <div class="card-body">
+            <h5 class="card-title">Theophratus Garden 2</h5>
+            <p class="card-text">$84.99</p>
+            <a href="#" class="btn btn-primary">Purchase Now</a><!--When the time comes link to shop.html-->
+          </div>
+        </div>  
+      </div>
+      <div class="col-md-3"> 
+        <div class="card bg-primary" style="width: 18rem;">
+          <img class="card-img-top" src="images/Plains.jpg" alt="Sylvia Mangold">
+          <div class="card-body">
+            <h5 class="card-title">Untitled Section B</h5>
+            <p class="card-text">$87.99</p>
+            <a href="#" class="btn btn-primary">Purchase Now</a><!--When the time comes link to shop.html-->
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3"> 
+        <div class="card bg-primary" style="width: 18rem;">
+          <img class="card-img-top" src="images/pondBridge.jpg" alt="Ed Ruscha">
+          <div class="card-body">
+            <h5 class="card-title">Doubts</h5>
+            <p class="card-text">$98.99</p>
+            <a href="#" class="btn btn-primary">Purchase Now</a><!--When the time comes link to shop.html-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  Keep bottom 3 images the same as "bestSellers" -->
+    <div class="row justify-content-center">
+      <div class="col-md-3"> 
+        <div class="card bg-primary" style="width: 18rem;">
+          <img class="card-img-top" src="images/ponder.jpg" alt="Terry Winters">
+          <div class="card-body">
+            <h5 class="card-title">Theophratus Garden 2</h5>
+            <p class="card-text">$84.99</p>
+            <a href="#" class="btn btn-primary">Purchase Now</a><!--When the time comes link to shop.html-->
+          </div>
+        </div>  
+      </div>
+      <div class="col-md-3"> 
+        <div class="card bg-primary" style="width: 18rem;">
+          <img class="card-img-top" src="images/Seel.jpg" alt="Sylvia Mangold">
+          <div class="card-body">
+            <h5 class="card-title">Untitled Section B</h5>
+            <p class="card-text">$87.99</p>
+            <a href="#" class="btn btn-primary">Purchase Now</a><!--When the time comes link to shop.html-->
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3"> 
+        <div class="card bg-primary" style="width: 18rem;">
+          <img class="card-img-top" src="images/theFarm.jpg" alt="Ed Ruscha">
+          <div class="card-body">
+            <h5 class="card-title">Doubts</h5>
+            <p class="card-text">$98.99</p>
+            <a href="#" class="btn btn-primary">Purchase Now</a><!--When the time comes link to shop.html-->
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<!-- Best Sellers END -->
+
+
+  <footer>
+    <p>&copy; 2024 The Gallery. All Rights Reserved.</p>
+  </footer>
+
+<script type="module" src="./javascripts/main.js"></script>
+</body>
+</html>

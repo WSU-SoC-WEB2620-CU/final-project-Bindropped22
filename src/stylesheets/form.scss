@@ -1,0 +1,35 @@
+// Custom styles for the form
+.container {
+    padding-top: 50px; // Add padding to the top of the container
+    
+    // Form fields styling
+    input[type="text"] {
+      border: 1px solid #ccc; // Add a border with a light gray color
+      border-radius: 5px; // Add border radius for rounded corners
+      padding: 10px; // Add padding to the input fields
+      margin-bottom: 10px; // Add some space between input fields
+    }
+    
+    // Form header styling
+    h4 {
+      color: #007bff; // Set text color to blue
+      margin-bottom: 10px; // Add space below the headers
+    }
+    
+    // Divider styling
+    .row > .col:not(:first-child):not(:last-child) {
+      margin-top: 10px; // Add margin to the div between the input fields
+    }
+    
+    // Icon and button styling
+    .fa-upload {
+      color: #007bff; // Set icon color to blue
+    }
+    
+    
+  }
+  
+  .fa-upload:hover{
+    color: navy;
+  }
+
